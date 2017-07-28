@@ -15,7 +15,7 @@ box()
 lines(data$timestamp, data$Sub_metering_1)
 lines(data$timestamp, data$Sub_metering_2, col="red")
 lines(data$timestamp, data$Sub_metering_3, col="blue")
-legend("topright", lwd=1, col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),cex = 0.75, bty = "n")
+legend("topright", lwd=1, col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 
 dev.copy(png, file="plot3.png")
 dev.off()
