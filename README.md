@@ -13,4 +13,7 @@ This folder contains the following files:
 * plot3.png
 * plot4.png
 
+The data was downloaded from the following link: https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
+After that the file was unziped and stored in the working directory.
+
 Coursera Exploratory Data Analysis Week 1 Assignment 1. Completed by Pavlo Buryi 
